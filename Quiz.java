@@ -3,12 +3,31 @@ import java.util.Random;
 
 public class Quiz {
     public static void main(String[] args) {
+        System.out.println("==================================================");
+        System.out.println("           Bem-vindo ao Quiz de " + 
+                                    "Victor Fernandes Ferreira");
+        System.out.println("             Faculdade: UNIFAN");
+        System.out.println("                Professor: Brenno");
+        System.out.println("            Tema: Life is Strange");
+        System.out.println("==================================================");
+        System.out.println();
+
         String[][] questions = {
-            {"Qual o nome da personagem principal do Life is Strange 1?", "B", "A) Chloe Price", "B) Max Caulfield", "C) Rachel Amber", "D) Nathan Prescott"},
-            {"Quem possui o cabelo azul na franquia Life is Strange?", "A", "A) Chloe Price", "B) Max Caulfield", "C) Rachel Amber", "D) Nathan Prescott"},
-            {"Em que cidade se passa o Life is Strange 1?", "C", "A) San Francisco", "B) Los Angeles", "C) Arcadia Bay", "D) Nevada"},
-            {"Qual a data (somente ano) de lançamento do prímeiro episódio de Life is Strange 1?", "C", "A) 2013", "B) 2018", "C) 2015", "D) 2016"},
-            {"Qual o nome do último jogo lançado pela franquia Life is Strange?", "A", "A) True Colors", "B) Before the Storm", "C) After the Storm", "D) The Awesome Adventures of Captain Spirit"}
+            {"Qual é o nome da protagonista de Life is Strange?", "A", "A) Max Caulfield", "B) Chloe Price", "C) Rachel Amber", "D) Kate Marsh"},
+            {"Em que cidade o jogo Life is Strange se passa?", "C", "A) Seattle", "B) Nova York", "C) Arcadia Bay", "D) Los Angeles"},
+            {"Qual é o superpoder de Max em Life is Strange?", "D", "A) Telepatia", "B) Telecinese", "C) Invisibilidade", "D) Retrocognição"},
+            {"Quem é o melhor amigo de Max em Life is Strange?", "B", "A) Warren Graham", "B) Chloe Price", "C) Nathan Prescott", "D) Frank Bowers"},
+            {"Qual é o nome da escola em que Max estuda em Life is Strange?", "D", "A) Blackwell Academy", "B) Arcadia High School", "C) Jefferson High School", "D) Blackwell Academy"},
+            {"Qual é o nome do farol onde ocorre um importante evento em Life is Strange?", "A", "A) Farol do Penhasco", "B) Farol de Arcadia Bay", "C) Farol da Tempestade", "D) Farol dos Sonhos"},
+            {"Quem é o diretor de Blackwell Academy em Life is Strange?", "B", "A) Nathan Prescott", "B) Mark Jefferson", "C) David Madsen", "D) Frank Bowers"},
+            {"Qual é o nome do grupo de música indie favorito de Chloe em Life is Strange?", "C", "A) The Vortex Club", "B) The Tempest", "C) Firewalk", "D) The Blackwell Rebels"},
+            {"Qual é o nome do animal de estimação de Max em Life is Strange?", "A", "A) Peixe", "B) Gato", "C) Cachorro", "D) Coelho"},
+            {"Qual é a música-tema de Life is Strange?", "B", "A) To All of You", "B) Obstacles", "C) Spanish Sahara", "D) Lua"},
+            {"Qual é o nome do pai de Chloe em Life is Strange?", "C", "A) William Price", "B) Richard Marsh", "C) William Marsh", "D) Tom Caulfield"},
+            {"Onde Max encontra pela primeira vez o diário de Rachel Amber em Life is Strange?", "A", "A) No banheiro da escola", "B) No quarto de Chloe", "C) Na sala de aula", "D) Na biblioteca da escola"},
+            {"Qual é o nome da cidade fictícia em que se passa Life is Strange 2?", "C", "A) Arcadia Bay", "B) Seattle", "C) Beaver Creek", "D) Portland"},
+            {"Qual é a habilidade especial de Daniel, o irmão mais novo de Sean, em Life is Strange 2?", "B", "A) Levitação", "B) Telecinese", "C) Clarividência", "D) Pirocinese"},
+            {"Qual é o nome do protagonista de Life is Strange: Before the Storm?", "A", "A) Chloe Price", "B) Max Caulfield", "C) Rachel Amber", "D) Nathan Prescott"}
         };
 
         Scanner scanner = new Scanner(System.in);
