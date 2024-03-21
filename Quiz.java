@@ -33,7 +33,7 @@ public class Quiz {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        int numberOfQuestions = 5;
+        int numberOfQuestions = 15;
         int score = 0;
 
         boolean[] questionsAsked = new boolean[questions.length];
